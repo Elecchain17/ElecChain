@@ -1,5 +1,226 @@
 extends layout
 
+
 block content
-  h1= title
-  p Welcome to #{title}
+
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>ElecChain</title>
+
+  <link rel="stylesheet" type="text/css" media="screen" href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.5/css/bootstrap-select.min.css">
+
+
+  <!-- Bootstrap Core CSS -->
+  <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="stylesheets/1-col-portfolio.css" rel="stylesheet">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  </head>
+
+  <body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+  <span class="sr-only">Toggle navigation</span>
+  <span class="icon-bar"></span>
+  <span class="icon-bar"></span>
+  <span class="icon-bar"></span>
+  </button>
+  <a class="navbar-brand" href="#">ElecChain</a>
+  </div>
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+  <ul class="nav navbar-nav">
+  <li>
+  <a href="#">About</a>
+  </li>
+  <li>
+  <a href="#">Services</a>
+  </li>
+  <li>
+  <a href="#">Contact</a>
+  </li>
+  </ul>
+  </div>
+  <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container -->
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+
+  <!-- Page Heading -->
+  <div class="row">
+  <div class="col-lg-12">
+  <h1 class="page-header">2017 World Presidential Election<br>
+  <small>Choose your horse!</small>
+  </h1>
+  </div>
+  </div>
+  <!-- /.row -->
+
+  <!-- Project One -->
+  <div class="row">
+  <div class="col-md-7">
+  <a href="#">
+  <img class="img-responsive" src="images/donald-trump.jpg" alt="">
+  </a>
+  </div>
+  <div class="col-md-5">
+  <center><p>The Donald</p></center>
+  <select class="selectpicker">
+  <option value = "0">Please Select a Preference</option>
+  <option value = "1">1</option>
+  <option value = "2">2</option>
+  <option value = "3">3</option>
+  <option value = "4">4</option>
+  <option value = "5">5</option>
+  </select>
+  </div>
+  </div>
+  <!-- /.row -->
+
+  <hr>
+
+  <!-- Project Two -->
+  <div class="row">
+  <div class="col-md-7">
+  <a href="#">
+  <img class="img-responsive" src="images/kenny.jpg" alt="">
+  </a>
+  </div>
+  <div class="col-md-5">
+  <center><p>Enda Kenny</p></center>
+  <select class="selectpicker">
+  <option value = "0">Please Select a Preference</option>
+  <option value = "1">1</option>
+  <option value = "2">2</option>
+  <option value = "3">3</option>
+  <option value = "4">4</option>
+  <option value = "5">5</option>
+  </select>
+  </div>
+  </div>
+  <!-- /.row -->
+
+  <hr>
+
+  <!-- Project Three -->
+  <div class="row">
+  <div class="col-md-7">
+  <a href="#">
+  <img class="img-responsive" src="images/bigwill.jpeg" alt="">
+  </a>
+  </div>
+  <div class="col-md-5">
+  <center><p>Willie O' Dea</p></center>
+  <select class="selectpicker">
+  <option value = "0">Please Select a Preference</option>
+  <option value = "1">1</option>
+  <option value = "2">2</option>
+  <option value = "3">3</option>
+  <option value = "4">4</option>
+  <option value = "5">5</option>
+  </select>
+  </div>
+  </div>
+  <!-- /.row -->
+
+  <hr>
+
+  <!-- Project Four -->
+  <div class="row">
+
+  <div class="col-md-7">
+  <a href="#">
+  <img class="img-responsive" src="images/kim-jong.jpg" alt="">
+  </a>
+  </div>
+  <div class="col-md-5">
+  <center><p>Kim-Jong-Un</p></center>
+  <select class="selectpicker">
+  <option value = "0">Please Select a Preference</option>
+  <option value = "1">1</option>
+  <option value = "2">2</option>
+  <option value = "3">3</option>
+  <option value = "4">4</option>
+  <option value = "5">5</option>
+  </select>
+  </div>
+  </div>
+  <!-- /.row -->
+
+  <hr>
+
+  <!-- Project Five -->
+  <div class="row">
+  <div class="col-md-7">
+  <a href="#">
+  <img class="img-responsive" src="images/putin.jpg" alt="">
+  </a>
+  </div>
+  <div class="col-md-5">
+  <center><p>Vladimir Putin</p></center>
+  <select class="selectpicker">
+  <option value = "0">Please Select a Preference</option>
+  <option value = "1">1</option>
+  <option value = "2">2</option>
+  <option value = "3">3</option>
+  <option value = "4">4</option>
+  <option value = "5">5</option>
+  </select>
+  </div>
+  </div>
+  <!-- /.row -->
+
+  <hr>
+
+  <hr>
+
+  <!-- Footer -->
+  <footer>
+  <div class="row">
+  <div class="col-lg-12">
+  <p>Copyright &copy; ElecChain 2017</p>
+  </div>
+  </div>
+  <!-- /.row -->
+  </footer>
+
+  </div>
+  <!-- /.container -->
+
+  <!-- jQuery -->
+  <script src="javascripts/jquery.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="javascripts/bootstrap.min.js"></script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.5/js/bootstrap-select.min.js"></script>
+
+
+  </body>
+
+  </html>
