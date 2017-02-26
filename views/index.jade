@@ -74,13 +74,14 @@ block content
   <!-- Page Heading -->
   <div class="row">
   <div class="col-lg-12">
-  <h1 class="page-header">2017 World Presidential Election<br>
+  <h1 class="page-header">2017 Presidential Election<br>
   <small>Choose your horse!</small>
   </h1>
   </div>
   </div>
   <!-- /.row -->
 
+  <form name="candidates" action="/" method="post" enctype="application/x-www-form-urlencoded">
   <!-- Project One -->
   <div class="row">
   <div class="col-md-7">
@@ -90,7 +91,7 @@ block content
   </div>
   <div class="col-md-5">
   <center><p>The Donald</p></center>
-  <select class="selectpicker">
+  <select class="selectpicker" name="candidate_1" id="candidate_1">
   <option value = "0">Please Select a Preference</option>
   <option value = "1">1</option>
   <option value = "2">2</option>
@@ -113,7 +114,7 @@ block content
   </div>
   <div class="col-md-5">
   <center><p>Enda Kenny</p></center>
-  <select class="selectpicker">
+  <select class="selectpicker" name="candidate_2" id="candidate_2">
   <option value = "0">Please Select a Preference</option>
   <option value = "1">1</option>
   <option value = "2">2</option>
@@ -136,7 +137,7 @@ block content
   </div>
   <div class="col-md-5">
   <center><p>Willie O' Dea</p></center>
-  <select class="selectpicker">
+  <select class="selectpicker" name="candidate_3" id="candidate_3">
   <option value = "0">Please Select a Preference</option>
   <option value = "1">1</option>
   <option value = "2">2</option>
@@ -160,7 +161,7 @@ block content
   </div>
   <div class="col-md-5">
   <center><p>Kim-Jong-Un</p></center>
-  <select class="selectpicker">
+  <select class="selectpicker" name="candidate_4" id="candidate_4">
   <option value = "0">Please Select a Preference</option>
   <option value = "1">1</option>
   <option value = "2">2</option>
@@ -183,7 +184,7 @@ block content
   </div>
   <div class="col-md-5">
   <center><p>Vladimir Putin</p></center>
-  <select class="selectpicker">
+  <select class="selectpicker" name="candidate_5" id="candidate_5">
   <option value = "0">Please Select a Preference</option>
   <option value = "1">1</option>
   <option value = "2">2</option>
@@ -194,6 +195,9 @@ block content
   </div>
   </div>
   <!-- /.row -->
+  <input type="submit">
+
+  </form>
 
   <hr>
 
@@ -218,8 +222,11 @@ block content
   <!-- Bootstrap Core JavaScript -->
   <script src="javascripts/bootstrap.min.js"></script>
 
-  <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.5/js/bootstrap-select.min.js"></script>
+  <script src="javascripts/folm-validation.js"></script>
 
+  <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.7.5/js/bootstrap-select.min.js"></script>
 
   </body>
 
