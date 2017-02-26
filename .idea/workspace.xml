@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7467cf00-4267-40b5-bf8c-50f7633400bd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/folm-validation.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.jade" afterPath="$PROJECT_DIR$/views/index.jade" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -37,8 +34,9 @@
       <file leaf-file-name="index.jade" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+            <state relative-caret-position="222">
+              <caret line="164" column="60" lean-forward="false" selection-start-line="164" selection-start-column="60" selection-end-line="164" selection-end-column="60" />
+              <caret line="166" column="40" lean-forward="false" selection-start-line="166" selection-start-column="40" selection-end-line="166" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -344,7 +342,7 @@
       <updated>1488033193753</updated>
       <workItem from="1488033204486" duration="919000" />
       <workItem from="1488039636021" duration="786000" />
-      <workItem from="1488056041124" duration="6341000" />
+      <workItem from="1488056041124" duration="6741000" />
     </task>
     <task id="LOCAL-00001" summary="Fix commit">
       <created>1488039668343</created>
@@ -360,11 +358,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488060176932</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Uber for Prostitutes V2.0">
+      <created>1488105241106</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1488105241106</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8046000" />
+    <option name="totallyTimeSpent" value="8446000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -398,7 +403,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fix commit" />
     <MESSAGE value="Uber for Prostitutes V1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Uber for Prostitutes V1.0" />
+    <MESSAGE value="Uber for Prostitutes V2.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="Uber for Prostitutes V2.0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -463,8 +469,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="33" lean-forward="true" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+        <state relative-caret-position="222">
+          <caret line="164" column="60" lean-forward="false" selection-start-line="164" selection-start-column="60" selection-end-line="164" selection-end-column="60" />
+          <caret line="166" column="40" lean-forward="false" selection-start-line="166" selection-start-column="40" selection-end-line="166" selection-end-column="40" />
           <folding />
         </state>
       </provider>
