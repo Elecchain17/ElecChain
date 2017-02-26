@@ -27,17 +27,9 @@ app.use('/users', users);
 
 app.post('/', function(req, res) {
 
-  var c_1 = req.body.candidate_1;
-  var c_2 = req.body.candidate_2;
-  var c_3 = req.body.candidate_3;
-  var c_4 = req.body.candidate_4;
-  var c_5 = req.body.candidate_5;
+  var vote = req.body.vote;
 
-  console.log("C_1 = "+c_1);
-  console.log("C_2 = "+c_2);
-  console.log("C_3 = "+c_3);
-  console.log("C_4 = "+c_4);
-  console.log("C_5 = "+c_5);
+  console.log("VOTE: "+vote);
 
   res.render('index');
 
